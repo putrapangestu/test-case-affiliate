@@ -1,0 +1,10 @@
+.section {
+  position: relative;
+  color: var(--fg-default);
+}
+
+.section--neutral-0 { background-color: var(--color-neutral-0); }
+.section--primary-50 { background-color: var(--color-primary-50); }
+.section--primary-100 { background-color: var(--color-primary-100); }
+.section--primary-900 { background-color: var(--color-primary-900); }
+.section--primary-950 { background-color: var(--color-primary-950); }

@@ -1,0 +1,114 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-weight: var(--weight-bold);
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+}
+
+.btn:disabled,
+.btn[aria-disabled='true'] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Ukuran */
+.btn--sm {
+  height: 36px;
+  padding-inline: var(--space-sm);
+  font-size: var(--fs-body-2);
+  line-height: var(--lh-body-2);
+}
+
+.btn--md {
+  height: 44px;
+  padding-inline: var(--space-md-alt);
+  font-size: var(--fs-body-1);
+  line-height: var(--lh-body-1);
+}
+
+.btn--lg {
+  height: 52px;
+  padding-inline: 28px;
+  font-size: var(--fs-body-1);
+  line-height: var(--lh-body-1);
+}
+
+.btn--xl {
+  height: 56px;
+  padding-inline: var(--space-lg);
+  font-size: var(--fs-body-1);
+  line-height: var(--lh-body-1);
+}
+
+/* Varian */
+.btn--primary {
+  background-color: var(--color-primary-600);
+  color: #FFFFFF;
+}
+.btn--primary:hover {
+  background-color: var(--color-primary-700);
+}
+
+.btn--primary-on-dark {
+  background-color: var(--color-primary-500);
+  color: #FFFFFF;
+}
+.btn--primary-on-dark:hover {
+  background-color: var(--color-primary-400);
+}
+
+.btn--neutral {
+  background-color: var(--color-neutral-0);
+  color: var(--color-neutral-900);
+  border-color: var(--color-neutral-200);
+}
+.btn--neutral:hover {
+  background-color: var(--color-neutral-50);
+}
+
+.btn--neutral-on-dark {
+  background-color: var(--color-neutral-0);
+  color: var(--color-neutral-900);
+}
+.btn--neutral-on-dark:hover {
+  background-color: var(--color-neutral-100);
+}
+
+.btn--outline-on-dark {
+  background-color: transparent;
+  color: #FFFFFF;
+  border-color: var(--color-neutral-700);
+}
+.btn--outline-on-dark:hover {
+  background-color: var(--color-light-a10);
+}
+
+.btn--ghost {
+  background-color: transparent;
+  color: var(--color-primary-600);
+}
+.btn--ghost:hover {
+  background-color: var(--color-primary-a10);
+}
