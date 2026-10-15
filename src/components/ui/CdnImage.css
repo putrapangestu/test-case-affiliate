@@ -1,0 +1,5 @@
+.cdn-image--fallback {
+  width: 100%;
+  min-height: 120px;
+  background: linear-gradient(135deg, var(--color-primary-100), var(--color-primary-50));
+}

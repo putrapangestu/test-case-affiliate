@@ -1,0 +1,35 @@
+.hero {
+  overflow: hidden;
+}
+
+.hero__glow {
+  position: absolute;
+  inset: auto 50% -40% auto;
+  width: 900px;
+  height: 600px;
+  transform: translateX(50%);
+  background: radial-gradient(closest-side, var(--color-primary-a25), var(--color-primary-a0));
+  pointer-events: none;
+}
+
+.hero__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.hero__title {
+  max-width: 646px;
+  font-size: var(--fs-title-0);
+  line-height: var(--lh-title-0);
+}
+
+.hero__subtitle {
+  max-width: 640px;
+  font-size: var(--fs-body-1);
+  line-height: var(--lh-body-1);
+  color: var(--color-neutral-200);
+}
