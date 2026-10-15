@@ -8,7 +8,7 @@ export default function Hero() {
     <Section bg="primary-950" mode="dark" spacing="2" id="promo" className="hero">
       <div className="hero__glow" aria-hidden="true" />
       <div className="container hero__inner">
-        <h1 className="hero__title">Program Afiliasi Hostinger</h1>
+        <h1 className="hero__title">Program Afiliasi PT Kerjasama</h1>
         <p className="hero__subtitle">
           Daftar program afiliasi kami dan dapatkan komisi besar. Tanpa biaya pendaftaran!
         </p>
