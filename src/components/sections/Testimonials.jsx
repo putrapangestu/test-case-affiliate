@@ -9,11 +9,11 @@ const PROVIDER_LOGO = 'bd213b5d-6602-4e06-025d-3b5b2c03d700'
 const TESTIMONIALS = [
   {
     logo: '042ad694-5799-4cbf-bcd6-54db92dfc000',
-    text: 'Kolaborasi kami dengan Hostinger sangat mengesankan. Kemitraan dengan komisi besar dan tentunya saling menguntungkan. Hostinger sangat kami rekomendasikan untuk Anda yang mencari kemitraan jangka panjang.',
+    text: 'Kolaborasi kami dengan PT Kerjasama sangat mengesankan. Kemitraan dengan komisi besar dan tentunya saling menguntungkan. PT Kerjasama sangat kami rekomendasikan untuk Anda yang mencari kemitraan jangka panjang.',
   },
   {
     logo: 'c2ffa5d8-dba8-4ce9-2683-9e1094b8e600',
-    text: 'Kemitraan kami dengan Hostinger sangat memuaskan. Timnya andal, profesional, ramah, dan suportif. Komisi yang diberikan besar dan tepat waktu. Kami senang bisa bekerja sama dengan Hostinger.',
+    text: 'Kemitraan kami dengan PT Kerjasama sangat memuaskan. Timnya andal, profesional, ramah, dan suportif. Komisi yang diberikan besar dan tepat waktu. Kami senang bisa bekerja sama dengan PT Kerjasama.',
   },
   {
     logo: '8bda9c96-3341-459e-f1da-1bf53c2a6b00',
